@@ -1,5 +1,5 @@
-import data from "./data.js";
-import { tbody } from "./consts.js";
+import data from "../data/data.js";
+import { tbody } from "../consts/consts.js";
 export let selectedRow = null;
 
 // Событие при клике на tbody, для редактирования строки в таблице

@@ -1,6 +1,6 @@
-import { btnNext, btnPrev, pageText, maxPage } from "./consts.js";
-import fillTable from "./fillTable.js";
-import clearTable from "./clearTable.js";
+import { btnNext, btnPrev, pageText, maxPage } from "../consts/consts.js";
+import fillTable from "../functions/fillTable.js";
+import clearTable from "../functions/clearTable.js";
 
 export let page = 1; // Стартовая страница
 

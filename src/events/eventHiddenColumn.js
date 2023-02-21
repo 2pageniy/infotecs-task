@@ -1,4 +1,4 @@
-import { btnsHidden, table } from "./consts.js";
+import { btnsHidden, table } from "../consts/consts.js";
 
 // Событие скрытия колонок
 btnsHidden.addEventListener("click", (e) => {

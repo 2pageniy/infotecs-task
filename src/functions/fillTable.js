@@ -1,7 +1,7 @@
-import data from "./data.js"; // Импортируем данные
-import { tbody, rowsOnPage, checkedBtns } from "./consts.js";
-import { selectedRow } from "./eventEdit.js";
-import { page } from "./eventSwitchPage.js";
+import data from "../data/data.js"; // Импортируем данные
+import { tbody, rowsOnPage, checkedBtns } from "../consts/consts.js";
+import { selectedRow } from "../events/eventEdit.js";
+import { page } from "../events/eventSwitchPage.js";
 
 export default function fillingTableData() {
   fillTable(data);

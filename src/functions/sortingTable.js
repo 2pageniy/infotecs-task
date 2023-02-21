@@ -1,7 +1,7 @@
-import data from "./data.js";
+import data from "../data/data.js";
 import clearTable from "./clearTable.js";
 import fillTable from "./fillTable.js";
-import { sort, thead } from "./consts.js";
+import { sort, thead } from "../consts/consts.js";
 
 thead.addEventListener("click", (e) => sortingTable(e.target.className));
 

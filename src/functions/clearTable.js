@@ -1,4 +1,4 @@
-import { tbody } from "./consts.js";
+import { tbody } from "../consts/consts.js";
 
 // Функция очистки таблицы
 export default function clearTable() {

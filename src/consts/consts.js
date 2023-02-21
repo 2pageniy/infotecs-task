@@ -1,4 +1,4 @@
-import data from "./data.js";
+import data from "../data/data.js";
 
 export const tbody = document.querySelector(".tbody");
 export const thead = document.querySelector(".thead");

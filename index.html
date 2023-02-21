@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script defer type="module" src="script.js"></script>
+	<title>ИнфоТеКС</title>
+</head>
+<body>
+	<section>
+		<div class="hidden-btn">
+			<div>Показать/скрыть колоноку</div>
+			<label><input type="checkbox" checked class="1-col check-col" /> Имя</label>
+			<label><input type="checkbox" checked class="2-col check-col" />Фамилия</label>
+			<label><input type="checkbox" checked class="3-col check-col" />Описание</label>
+			<label><input type="checkbox" checked class="4-col check-col" />Цвет глаз</label>
+		</div>
+		<table class="table">
+			<thead class="thead">
+				<tr>
+					<th class="first-name">Имя</th>
+					<th class="second-name">Фамилия</th>
+					<th class="about">Описание</th>
+					<th class="eye-color">Цвет глаз</th>
+				</tr>
+			</thead>
+			<tbody class="tbody"></tbody>
+		</table>
+		<div class="pagination">
+			<button class="prev">Предыдущая страница</button>
+			<span class="page">1</span>
+			<button class="next">Следующая страница</button>
+		</div>
+	</section>
+	<div class="edit-data">
+		<label>Имя<input type="text" class="edit-data__name"></label>
+		<label>Фамилия <input type="text" class="edit-data__last-name"></label>
+		<label>Описание <textarea class="edit-data__input-about" rows="1"></textarea></label>
+		<label>Цвет глаз <input type="text" class="edit-data__eye-color"></label>
+		<div class="wrapper-btn">
+			<button class="cancel-button">Отменить</button>
+			<button class="save-button">Сохранить</button>
+		</div>
+	</div>
+</body>
+</html>

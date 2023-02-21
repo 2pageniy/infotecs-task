@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  margin: 20px;
+}
+
+.table {
+	width: 50vw;
+  text-align: center;
+	margin: 50px 0;
+}
+
+.thead {
+  cursor: pointer;
+}
+
+.thead th:active {
+  background-color: rgb(194, 194, 194);
+}
+
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.td-about {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.edit-data {
+  text-align: right;
+  display: none;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.edit-data label {
+  margin-bottom: 10px;
+}
+
+.wrapper-btn {
+  margin-top: 15px;
+}
+
+.edit-data__input-about {
+  width: 165px;
+  resize: vertical;
+}
+
+.hidden-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.pagination {
+  margin: 0 auto;
+}
